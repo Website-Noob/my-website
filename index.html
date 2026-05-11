@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Code Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mini Code Playground</h1>
+        <p>Write JavaScript code on the left, see the output on the right!</p>
+    </header>
+
+    <main>
+        <div class="editor-container">
+            <div class="editor">
+                <h2>Code Editor</h2>
+                <textarea id="codeArea" placeholder="Write your JS code here...">
+// Example:
+console.log("Hello World!");
+                </textarea>
+                <button id="runBtn">Run Code</button>
+            </div>
+
+            <div class="output">
+                <h2>Output Console</h2>
+                <pre id="consoleOutput"></pre>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Mini Code Playground by You ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
